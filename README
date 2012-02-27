@@ -1,0 +1,13 @@
+# primefactors
+
+An attempt to do prime factors kata in Clojure
+
+## Usage
+
+There is no usage for this since this is simply a practice set of code.
+
+## License
+
+Copyright (C) 2011 If you make money give me money for reading this README ... if you never read this readme then you must give me more money.
+
+Distributed under the Eclipse Public License, the same as Clojure.
