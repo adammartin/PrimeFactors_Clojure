@@ -3,4 +3,4 @@
   (:use midje.sweet)
 )
 
-; (fact 1 => 1)
+(fact (primefactors 1) => (list))
