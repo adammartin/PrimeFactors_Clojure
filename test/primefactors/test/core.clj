@@ -4,3 +4,5 @@
 )
 
 (fact (primefactors 1) => (list))
+
+(fact (primefactors 2) => (list 2))
