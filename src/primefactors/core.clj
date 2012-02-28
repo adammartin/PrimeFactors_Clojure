@@ -1,7 +1,7 @@
 (ns primefactors.core)
 
-(defn primefactors [n] 
-	(if (<= 2 n)
+(defn primefactors [n]
+	(if (< 1 n)
 		(list n)
 		(list))
 )
