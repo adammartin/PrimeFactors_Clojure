@@ -5,7 +5,7 @@
 	([n candidate] 
 		(cond	(<= n 1) (list)
 		  		(= 0 (rem n candidate)) (conj (primefactors (/ n candidate)) candidate)
-		  		:else (list n)
+		  		:else (primefactors n (inc candidate))
 		)
 	)
 )
