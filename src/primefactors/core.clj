@@ -5,7 +5,7 @@
 	([n candidate accumulator] 
 		(cond	(<= n 1) (reverse accumulator)
 		  		(zero? (rem n candidate)) (recur (/ n candidate) candidate (cons candidate accumulator))
-		  		:else (primefactors n (inc candidate) accumulator)
+		  		:else (recur n (inc candidate) accumulator)
 		)
 	)
 )
