@@ -4,7 +4,7 @@
 	([n] (primefactors n 2))
 	([n candidate] 
 		(cond	(<= n 1) (list)
-		  		(= 0 (rem n 2)) (conj (primefactors (/ n 2)) 2)
+		  		(= 0 (rem n candidate)) (conj (primefactors (/ n candidate)) 2)
 		  		:else (list n)
 		)
 	)
