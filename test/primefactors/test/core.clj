@@ -12,3 +12,5 @@
 (fact (primefactors 4) => (list 2 2))
 
 (fact (primefactors 6) => (list 2 3))
+
+(fact (primefactors 8) => (list 2 2 2))
